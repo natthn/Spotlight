@@ -1,0 +1,52 @@
+@charset "UTF-8";
+
+@media screen and (min-width: 768px) and (max-width: 992px) {
+
+    body{
+        background-image: linear-gradient(to bottom, #24849D, #24849D, #063349);
+    }
+
+    #acesso{
+        width: 80vw;
+    }
+    
+    #acesso > #imagem{
+        float: left;
+        width: 60%;
+        height: 100%;
+    }
+
+    #acesso > #forms{
+        float: right;
+        width: 40%;
+    }
+}
+
+@media screen and (min-width: 992px){
+
+    body{
+        background-image: linear-gradient(to bottom, #24849D, #24849D, #063349);
+    }
+
+    #acesso{
+        width: 85%;
+        height: 80%;
+    }
+
+    #acesso > #imagem{
+        float: left;
+        width: 70%;
+        height: 100%;
+
+    }
+
+    #acesso > #forms{
+        float: right;
+        width: 30%;
+    }
+
+    #forms > p{
+        font-size: 1em;
+        text-align: center;
+    }
+}
