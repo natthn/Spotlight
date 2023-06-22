@@ -1,5 +1,9 @@
 @charset "UTF-8";
 
+/*MOBILE*/
+
+/*CONFIGURAÇÕES BODY*/
+
 *{
     font-family: system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
     padding: 0px;
@@ -18,6 +22,8 @@ main{
     width: 100vw;
     height: 100vh;
 }
+
+/*CONFIGURAÇÕES DIVS */
 
 #acesso{
     width: 300px;
@@ -47,13 +53,14 @@ main{
 
 #acesso > #forms{
     display: block;
-    padding-top: 20px;
-    padding-left: 12px;
-
+    padding-top: 5px;;
 }
+
+/*CONFIGURAÇÕES TEXTO*/
 
 #forms > h1{
     text-align: center;
+    margin-top: 10px;
     margin-bottom: 5px;
 }
 
@@ -63,7 +70,13 @@ main{
     padding-bottom: 15px;
 }
 
-#campo > input[type=submit]{
+/*CONFIGURAÇÃO BOTÕES*/
+
+#campo > a{
+    text-decoration: none;
+}
+
+#campo > a >input[type=submit]{
     display: block;
     font-size: 1em;
 
@@ -79,7 +92,9 @@ main{
     margin: auto;
 }
 
-#campo > input[type=submit]:hover{
+#campo > a > input[type=submit]:hover{
     background-color: #004D74;
     transition: 0.9s;
 }
+
+/*CONFIGURAÇÃO */

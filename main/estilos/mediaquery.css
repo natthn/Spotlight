@@ -1,5 +1,7 @@
 @charset "UTF-8";
 
+/*CONFIGURAÇÃO TABLET*/
+
 @media screen and (min-width: 768px) and (max-width: 992px) {
 
     body{
@@ -20,7 +22,17 @@
         float: right;
         width: 40%;
     }
+
+    #forms > h1{
+        text-align: center;
+        margin-top: 50%;
+        margin-bottom: 5px;
+
+    }
+
 }
+
+/*CONFIGURAÇÃO DESKTOP*/
 
 @media screen and (min-width: 992px){
 
@@ -45,8 +57,16 @@
         width: 30%;
     }
 
+    #forms > h1{
+        margin-top: 50%;
+        text-align: center;
+        margin-bottom: 5px;
+    }
+
     #forms > p{
         font-size: 1em;
         text-align: center;
     }
+
+
 }
